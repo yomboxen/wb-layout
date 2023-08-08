@@ -1,0 +1,37 @@
+.logo {
+    width: 300px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.nav {
+    margin-left: 30px;
+    margin-top: 50px;
+    color: white;
+    font-size: 14px;
+}
+
+#first-photo {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images-ext-2.discordapp.net/external/QhQm-05P-c6d2HBaWLs17xIY5CdTN48gS2p0F3IqF-g/https/sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg?width=1420&height=655);
+}
+
+.mid-section1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    height: 60%;
+    flex-direction: column;
+    color: white;
+    justify-content: flex-end;
+    margin-left: 50px;
+}
+
+.flight-test {
+    font-size: 50px;
+}
