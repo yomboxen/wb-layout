@@ -1,5 +1,7 @@
 .logo {
-    width: 300px;
+    width: 250px;
+    height: 30px;
+    margin-top: 40px;
 }
 
 .nav-bar {
@@ -9,29 +11,63 @@
 }
 
 .nav {
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 50px;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
+
+    font-family: 'D-DIN', sans-serif;
+    font-family: 'D-DIN Condensed', sans-serif;
+    font-family: 'D-DIN Exp', sans-serif;
+
 }
 
 #first-photo {
     width: 100%;
     height: 100vh;
     background-image: url(https://images-ext-2.discordapp.net/external/QhQm-05P-c6d2HBaWLs17xIY5CdTN48gS2p0F3IqF-g/https/sxcontent9668.azureedge.us/cms-assets/assets/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg?width=1420&height=655);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .mid-section1 {
     display: flex;
     flex-wrap: wrap;
-    width: 35%;
-    height: 60%;
+    width: 40%;
+    height: 80%;
     flex-direction: column;
     color: white;
     justify-content: flex-end;
     margin-left: 50px;
+
+    font-family: 'D-DIN', sans-serif;
+    font-family: 'D-DIN Condensed', sans-serif;
+    font-family: 'D-DIN Exp', sans-serif;
+
 }
 
 .flight-test {
     font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.rewatch {
+    border: white 2px solid;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#second-photo {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://archive.ph/IOYDm/4bc8db7b648fb7f58c5cfffa18b52a043ab44919.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
